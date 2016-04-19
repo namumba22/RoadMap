@@ -1,0 +1,64 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="false" />
+    <globalmarks />
+    <filemarks>
+      <file name="/a.dummy" timestamp="1459412917473">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/untitled/src/Main.java" timestamp="1459446095038">
+        <mark key="]" line="9" column="0" />
+        <mark key="^" line="9" column="0" />
+        <mark key="." line="9" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="1" type="4">
+        <text encoding="base64">TGlzdDxTdHJpbmc+IGxpc3QgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsKCiAgICAgICAgbA==</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text encoding="base64">TGlzdDxTdHJpbmc+IGxpc3QgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsKCiAgICAgICAgbA==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBMaXN0PFN0cmluZz4gbGlzdCA9IG5ldyBBcnJheUxpc3Q8U3RyaW5nPigpOwogICAgICAgIGxpc3QuYWRkKCJpdGVtIik7Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text>s</text>
+      </register>
+      <register name="4" type="4">
+        <text />
+      </register>
+      <register name="5" type="4">
+        <text />
+      </register>
+      <register name="-" type="4">
+        <text>s</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+    <editor>
+      <key-repeat enabled="false" />
+    </editor>
+  </component>
+</application>
