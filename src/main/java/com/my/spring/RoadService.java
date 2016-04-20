@@ -4,6 +4,7 @@ import com.my.City;
 import com.my.Road;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by dumin on 4/19/16.
@@ -20,5 +21,5 @@ void dropRoad(Road road);
 //    4.     Получение города по имени
     City getCityByName(String name);
 //    5.     Получение списка дорог по имени города
-    List<Road> getRoadsByName();
+    Set<Road> getRoadsByName(String name);
 }

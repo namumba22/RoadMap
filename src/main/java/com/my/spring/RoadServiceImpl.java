@@ -38,13 +38,15 @@ public class RoadServiceImpl implements RoadService {
         City city = new City();
         city.setName(name);
         city.setCoordinate(coordinate);
+        cities.add(city);
         return city;
-
     }
 
     @Override
     public Road addRoad(String name, City from, City to) {
-        return null;
+        Road road = new Road(name,from,to);
+        roads.add(road);
+        return road;
     }
 
     @Override
@@ -54,11 +56,31 @@ public class RoadServiceImpl implements RoadService {
 
     @Override
     public City getCityByName(String name) {
-        return null;
+        City template = new City();
+        template.setName(name);
+        List<City> ct = new ArrayList<>();
+        ct.addAll(cities);
+        int position = Collections.binarySearch(ct,template,City.CityCMP.build());
+
+        City retVal=null;
+        if(position !=0 ){
+            retVal = ct.get(position);
+        }
+
+
+        return retVal;
     }
 
     @Override
-    public List<Road> getRoadsByName() {
+    public Set<Road> getRoadsByName(String name) {
+
+        List<Road> rd = new ArrayList<>();
+        rd.addAll(roads);
+
+
+
+//        Collections.binarySearch(rd,"",Road.RoadCMP.build());
+
         return null;
     }
 }
