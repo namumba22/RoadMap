@@ -16,6 +16,24 @@ public class Road {
         this.to = to;
     }
 
+    public static Comparator<Road> comparatorFrom = new Comparator<Road>() {
+        @Override
+        public int compare(Road o1, Road o2) {
+            return City.aComparator.compare(o1.from,o2.from) ;
+        }
+    };
+
+    public static Comparator<Road> comparatorTo = new Comparator<Road>() {
+        @Override
+        public int compare(Road o1, Road o2) {
+            return City.aComparator.compare(o1.to,o2.to) ;
+        }
+    };
+
+    public Road() {
+
+    }
+
 
     public String getName() {
         return name;
@@ -48,8 +66,6 @@ public class Road {
         Road road = (Road) o;
         return Objects.equals(name, road.name);
     }
-
-
 
     @Override
     public int hashCode() {
