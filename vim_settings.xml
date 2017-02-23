@@ -1,16 +1,25 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="false" />
+    <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/a.dummy" timestamp="1459412917473">
+      <file name="/a.dummy" timestamp="1487863333846">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/cosr/components/integration/src/main/java/com/epam/csd/gitlab/config/GitLabProperties.java" timestamp="1487863230104">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/cosr/components/integration/src/main/java/com/epam/csd/gitlab/dao/GitLabDao.java" timestamp="1487863185121">
+        <mark key="[" line="38" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/untitled/src/Main.java" timestamp="1459446095038">
         <mark key="]" line="9" column="0" />
         <mark key="^" line="9" column="0" />
         <mark key="." line="9" column="0" />
       </file>
+      <file name="$USER_HOME$/usr/spring-boot-web-jsp/components/integration/src/main/java/com/my/temp/data/config/UpsaProperties.java" timestamp="1487863329872" />
     </filemarks>
     <jumps />
     <registers>
@@ -18,7 +27,7 @@
         <text encoding="base64">TGlzdDxTdHJpbmc+IGxpc3QgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsKCiAgICAgICAgbA==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">TGlzdDxTdHJpbmc+IGxpc3QgPSBuZXcgQXJyYXlMaXN0PFN0cmluZz4oKTsKCiAgICAgICAgbA==</text>
+        <text />
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgICBMaXN0PFN0cmluZz4gbGlzdCA9IG5ldyBBcnJheUxpc3Q8U3RyaW5nPigpOwogICAgICAgIGxpc3QuYWRkKCJpdGVtIik7Cg==</text>
@@ -33,7 +42,7 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text />
       </register>
     </registers>
     <search>
