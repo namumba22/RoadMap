@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="Project Files" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.xml" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -15,10 +16,10 @@
       <mask>*.mxml</mask>
       <mask>*.impex</mask>
       <mask>*.sql</mask>
-      <mask>*.xml</mask>
       <mask>*Controller.java</mask>
       <mask>*.ico</mask>
       <mask>*.java</mask>
+      <mask>*.xml</mask>
     </recentFileMasks>
   </component>
 </application>
