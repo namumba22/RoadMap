@@ -4,8 +4,9 @@
       <list>
         <SonarQubeServer>
           <option name="hostUrl" value="http://ecsa00100054.epam.com:8000/" />
-          <token>df99df93df93df98dfcbdfc8df99df9cdfcbdf9bdfc9df92dfc9df9fdf9adfcfdf9bdf9ddf9ddf9adf9fdfc8df9fdf9bdf93dfcbdf9fdf9ddf9edf9edf92dfc8dfcedf93df99df98df9ddf9bdf9bdfc8</token>
           <option name="name" value="ctc" />
+          <option name="login" value="" />
+          <password />
         </SonarQubeServer>
       </list>
     </option>
