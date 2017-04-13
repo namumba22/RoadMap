@@ -1,0 +1,14 @@
+<application>
+  <component name="SonarLintGlobalSettings">
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="http://ecsa00100054.epam.com:8000/" />
+          <option name="name" value="CTC" />
+          <option name="login" value="" />
+          <password />
+        </SonarQubeServer>
+      </list>
+    </option>
+  </component>
+</application>
