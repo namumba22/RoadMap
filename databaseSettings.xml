@@ -1,5 +1,7 @@
 <application>
   <component name="DatabaseSettings">
+    <option name="always-review-parameters" value="false" />
+    <option name="error-in-editor" value="false" />
     <csv-formats>
       <csv-format name="Tab Separated Values (TSV)">
         <data>
