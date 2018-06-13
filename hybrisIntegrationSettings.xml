@@ -3,6 +3,7 @@
     <option name="usedActions">
       <set>
         <option value="OPEN_POTENTIAL_PROJECT" />
+        <option value="BUILD_PROJECT" />
       </set>
     </option>
   </component>
