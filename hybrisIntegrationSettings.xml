@@ -2,6 +2,8 @@
   <component name="HybrisApplicationSettings">
     <option name="usedActions">
       <set>
+        <option value="IMPORT_PROJECT" />
+        <option value="OPEN_PROJECT" />
         <option value="OPEN_POTENTIAL_PROJECT" />
         <option value="BUILD_PROJECT" />
       </set>
