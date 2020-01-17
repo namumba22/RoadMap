@@ -1,12 +1,16 @@
 <application>
   <component name="HybrisApplicationSettings">
     <option name="allowedSendingPlainStatistics" value="true" />
+    <option name="configPropertyFolding" value="Full" />
+    <option name="headerFolding" value="Smart" />
+    <option name="lineFolding" value="Enabled" />
+    <option name="localMacroFolding" value="Full" />
     <option name="usedActions">
       <set>
-        <option value="IMPORT_PROJECT" />
-        <option value="OPEN_PROJECT" />
-        <option value="OPEN_POTENTIAL_PROJECT" />
         <option value="BUILD_PROJECT" />
+        <option value="IMPORT_PROJECT" />
+        <option value="OPEN_POTENTIAL_PROJECT" />
+        <option value="OPEN_PROJECT" />
       </set>
     </option>
   </component>
